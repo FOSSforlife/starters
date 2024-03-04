@@ -11,3 +11,4 @@
 - `npx create-docusaurus@latest`
 - `git clone https://github.com/graphile/starter graphile-starter-fullstack`
 - `npx create-wundergraph-app [project] --example nextjs-relay`
+- `npm create feathers`
