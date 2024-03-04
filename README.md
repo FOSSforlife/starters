@@ -1,0 +1,13 @@
+- `npm create t3-app@latest` - Prisma/Drizzle, NextAuth.js, App Router
+- `nest new`
+- `npm create vite@latest`
+- `npx create-next-app@latest`
+- `blitz new`
+- `wasp new`
+- `yarn create redwood-app --ts`
+- `npm create astro@latest -- --template basics`
+- `npx create-remix@latest`
+- `npm init adonisjs@latest`
+- `npx create-docusaurus@latest`
+- `git clone https://github.com/graphile/starter graphile-starter-fullstack`
+- `npx create-wundergraph-app [project] --example nextjs-relay`
