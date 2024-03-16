@@ -35,7 +35,6 @@ const template = await select({
   })),
 });
 
-// const templateFolder = join(__dirname, projectFolder, String(template));
 const templateFolder = new URL(
   `./${projectFolder}/${String(template)}`,
   import.meta.url

@@ -16,4 +16,4 @@ npm i
 tsx starters/scaffold.mts
 ```
 
-This will allow you to choose a template, name your project, and auto-run `npm install` if necessary.
+This will guide you through choosing a template, naming your project, and auto-running `npm install` if necessary.
