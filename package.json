@@ -1,0 +1,17 @@
+{
+  "name": "starters",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@clack/prompts": "^0.7.0",
+    "@types/node": "^20.11.28",
+    "change-case": "^5.4.3"
+  }
+}
