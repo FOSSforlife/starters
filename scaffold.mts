@@ -1,5 +1,3 @@
-// Usage: tsx <path-to-this-dir>/scaffold.mts
-
 import { intro, outro, select, text } from '@clack/prompts';
 import { cpSync, readdirSync } from 'fs';
 import { exec } from 'child_process';
