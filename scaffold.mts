@@ -60,3 +60,7 @@ if (files.includes('package.json')) {
 }
 
 outro(`You're all set!`);
+
+// TODO: add a .gitignore file
+// TODO: run git init
+// TODO: add a prompt to run vscode
