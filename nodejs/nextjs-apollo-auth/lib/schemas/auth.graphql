@@ -1,0 +1,39 @@
+mutation Login($input: UserLoginInput!) {
+  login(input: $input) {
+    id
+    username
+    email
+    bio
+    image
+    token
+  }
+}
+
+mutation Signup($input: UserSignupInput!) {
+  signup(input: $input) {
+    id
+    username
+    email
+    bio
+    image
+    token
+  }
+}
+
+query CurrentUser {
+  currentUser {
+    id
+    username
+    email
+    bio
+    image
+  }
+}
+
+query CheckUsername($username: String!) {
+  checkUsername(username: $username)
+}
+
+query CheckEmail($email: String!) {
+  checkEmail(email: $email)
+}

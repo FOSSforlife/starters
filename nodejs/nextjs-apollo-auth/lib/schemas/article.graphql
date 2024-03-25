@@ -1,0 +1,74 @@
+query Article($slug: String!) {
+  article(slug: $slug) {
+    ...ArticleView
+  }
+}
+
+query ArticleMeta($slug: String!) {
+  article(slug: $slug) {
+    ...ArticleMetaView
+  }
+}
+
+query Comments($articleId: Int!, $limit: Int, $offset: Int, $cursor: Int) {
+  comments(articleId: $articleId, limit: $limit, offset: $offset, cursor: $cursor) {
+    ...CommentView
+  }
+}
+
+mutation CreateComment($slug: String!, $input: CommentInput!) {
+  createComment(slug: $slug, input: $input) {
+    ...CommentView
+  }
+}
+
+mutation DeleteComment($deleteCommentId: Int!) {
+  deleteComment(id: $deleteCommentId) {
+    id
+  }
+}
+
+mutation DeleteArticle($slug: String!) {
+  deleteArticle(slug: $slug) {
+    id
+  }
+}
+
+fragment ArticleView on Article {
+  id
+  slug
+  title
+  description
+  body
+  createdAt
+  updatedAt
+  favorited
+  favoritesCount
+  author {
+    username
+    image
+    following
+  }
+  tagList
+}
+
+fragment ArticleMetaView on Article {
+  id
+  slug
+  favorited
+  favoritesCount
+  author {
+    username
+    following
+  }
+}
+
+fragment CommentView on Comment {
+  id
+  body
+  createdAt
+  author {
+    username
+    image
+  }
+}
