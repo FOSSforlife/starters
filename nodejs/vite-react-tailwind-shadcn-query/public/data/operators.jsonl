@@ -1,0 +1,186 @@
+{"category":"Comparison","aliases":["!=p","neqp"],"description":"Returns in1 if it does not equal in2, else returns zero. Equivalent to in1\\*(in1 != in2).","domain":"all"}
+{"category":"Comparison","aliases":[">","gt"],"description":"Returns 1 if in1 is greater than in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":["\\==","eq"],"description":"Returns 1 if in1 equals in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":["\\==p","eqp"],"description":"Returns in1 if it equals in2, else returns zero. Equivalent to in1\\*(in1 == in2).","domain":"all"}
+{"category":"Comparison","aliases":[">=","gte"],"description":"Returns 1 if in1 is equal to or greater than in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":[">=p","gtep"],"description":"Returns in1 if in1 is equal to or greater than in2, else returns zero. Equivalent to in1\\*(in1 >= in2).","domain":"all"}
+{"category":"Comparison","aliases":[">p","gtp"],"description":"Returns in1 if in1 is greater than in2, else returns zero. Equivalent to in1\\*(in1 > in2).","domain":"all"}
+{"category":"Comparison","aliases":["<","lt"],"description":"Returns 1 if in1 is less than than in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":["<=","lte"],"description":"Returns 1 if in1 is equal to or less than in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":["<=p","ltep"],"description":"Returns in1 if in1 is equal to or less than in2, else returns zero. Equivalent to in1\\*(in1 <= in2).","domain":"all"}
+{"category":"Comparison","aliases":["<p","ltp"],"description":"Returns in1 if in1 is less than in2, else returns zero. Equivalent to in1\\*(in1 < in2).","domain":"all"}
+{"category":"Comparison","aliases":["max","maximum"],"description":"The maximum of the inputs","domain":"all"}
+{"category":"Comparison","aliases":["min","minimum"],"description":"The minimum of the inputs","domain":"all"}
+{"category":"Comparison","aliases":["!=","neq"],"description":"Returns 1 if in1 does not equal in2, else returns zero.","domain":"all"}
+{"category":"Comparison","aliases":["step"],"description":"0 is returned if in1 < in2, and 1 is returned otherwise.","domain":"all"}
+{"category":"Constant","aliases":["constant"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["degtorad","DEGTORAD"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["e","E"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["f","float"],"description":"Either outputs a constant float or converts its input value to a float","domain":"all"}
+{"category":"Constant","aliases":["halfpi","HALFPI"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["i","int"],"description":"Either outputs a constant integer or converts its input value to an integer.","domain":"all"}
+{"category":"Constant","aliases":["invpi","INVPI"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["ln10","LN10"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["ln2","LN2"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["log10e","LOG10E"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["log2e","LOG2E"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["PHI","phi"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["pi","PI"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["radtodeg","RADTODEG"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["sqrt1_2","SQRT1_2"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["sqrt2","SQRT2"],"description":"A constant value","domain":"all"}
+{"category":"Constant","aliases":["twopi","TWOPI"],"description":"A constant value","domain":"all"}
+{"category":"Declare","aliases":["param","Param"],"description":"Named parameters can be modified from outside the gen patcher. The first argument specifies the name of the parameter, the second argument the initial value.","domain":"all"}
+{"category":"Expression","aliases":["expr"],"description":"Evaluates GenExpr code. Standard mathematical operators (+, -, \\*, / etc.) and gen patcher operators can be used. See the GenExpr documentation for more detail.","domain":"all"}
+{"category":"Ignore","aliases":["pass"],"description":"Passes the value through unchanged.","domain":"all"}
+{"category":"Input-output","aliases":["in"],"description":"Defines an input for a gen patcher.","domain":"all"}
+{"category":"Input-output","aliases":["out"],"description":"Send output from a gen patcher","domain":"all"}
+{"category":"Logic","aliases":["!","not"],"description":"An input value of zero returns 1, any other value returns zero.","domain":"all"}
+{"category":"Logic","aliases":["&&","and"],"description":"Returns 1 if both in1 and in2 are nonzero.","domain":"all"}
+{"category":"Logic","aliases":["bool"],"description":"Converts any nonzero value to 1 while zero passes through.","domain":"all"}
+{"category":"Logic","aliases":["or","||"],"description":"Returns 1 if either in1 or in2 are nonzero.","domain":"all"}
+{"category":"Logic","aliases":["^^","xor"],"description":"Returns 1 if one of in1 and in2 are nonzero, but not both.","domain":"all"}
+{"category":"Math","aliases":["!%","rmod"],"description":"Reverse modulo (remainder of second input / first input)","domain":"all"}
+{"category":"Math","aliases":["!-","rsub"],"description":"Reverse subtraction (subtract first input from second)","domain":"all"}
+{"category":"Math","aliases":["%","mod"],"description":"Modulo inputs (remainder of first input / second input)","domain":"all"}
+{"category":"Math","aliases":["+","add"],"description":"Add inputs","domain":"all"}
+{"category":"Math","aliases":["-","sub"],"description":"Subtract inputs","domain":"all"}
+{"category":"Math","aliases":["/","div"],"description":"Divide inputs","domain":"all"}
+{"category":"Math","aliases":["absdiff"],"description":"Compute the absolute difference between two inputs using the equation abs(in1-in2).","domain":"all"}
+{"category":"Math","aliases":["cartopol"],"description":"Convert Cartesian values to polar format. Angles are in radians.","domain":"all"}
+{"category":"Math","aliases":["\\*","mul"],"description":"Multiply inputs","domain":"all"}
+{"category":"Math","aliases":["neg"],"description":"Negate input","domain":"all"}
+{"category":"Math","aliases":["poltocar"],"description":"Convert polar values to Cartesian format. Angles are in radians.","domain":"all"}
+{"category":"Math","aliases":["!/","rdiv"],"description":"Reverse division (divide second input by first)","domain":"all"}
+{"category":"Numeric","aliases":["abs"],"description":"Negative values will be converted to positive counterparts.","domain":"all"}
+{"category":"Numeric","aliases":["ceil"],"description":"Round the value up to the next higher integer","domain":"all"}
+{"category":"Numeric","aliases":["floor","trunc"],"description":"Round the value down to the next lower integer (toward negative infinity)","domain":"all"}
+{"category":"Numeric","aliases":["fract"],"description":"Return only the fractional component","domain":"all"}
+{"category":"Numeric","aliases":["sign"],"description":"Positive input returns 1, negative input returns -1, zero returns itself.","domain":"all"}
+{"category":"Numeric","aliases":["trunc"],"description":"Round the value down to the next smaller integer (toward zero)","domain":"all"}
+{"category":"Powers","aliases":["exp"],"description":"Raise the mathematical value e to a power","domain":"all"}
+{"category":"Powers","aliases":["exp2"],"description":"Raise 2 to a power","domain":"all"}
+{"category":"Powers","aliases":["fastexp"],"description":"Approximated e to a power","domain":"all"}
+{"category":"Powers","aliases":["fastpow"],"description":"Approximated in1 to the power of in2","domain":"all"}
+{"category":"Powers","aliases":["ln","log"],"description":"The natural logarithm","domain":"all"}
+{"category":"Powers","aliases":["log10"],"description":"The logarithm base 10 of the input","domain":"all"}
+{"category":"Powers","aliases":["log2"],"description":"The logarithm base 2 of the input","domain":"all"}
+{"category":"Powers","aliases":["pow"],"description":"Raise in1 to the power of in2","domain":"all"}
+{"category":"Powers","aliases":["sqrt"],"description":"The square root of the input","domain":"all"}
+{"category":"Range","aliases":["clamp","clip"],"description":"Clamps the input value between specified min and max. Ranges are inclusive (both min and max values may be output)","domain":"all"}
+{"category":"Range","aliases":["fold"],"description":"Low and high values can be specified by arguments or by inlets. The default range is 0..1.","domain":"all"}
+{"category":"Range","aliases":["scale"],"description":"1) value to scale, 2) input lower bound, 3), input upper bound, 4) output lower bound, 5) output upper bound, 6) exponential curve. Default lower and upper bounds are zero and one; default exponential curve is 1 (linear). No bound clamping is performed. The high and low values can be reversed for inverted mapping.","domain":"all"}
+{"category":"Range","aliases":["wrap"],"description":"Low and high values can be specified by arguments or by inlets. The default range is 0..1.","domain":"all"}
+{"category":"Route","aliases":["?","switch"],"description":"Selects between the second and third inputs according to the boolean value of the first. If the first argument is true, the second argument will be output. Otherwise, the third argument will be output.","domain":"all"}
+{"category":"Route","aliases":["gate"],"description":"Similar to the MSP gate~ object. It takes an argument for number of outputs (one is the default) and lets you choose which the incoming signal (at the right inlet) is sent to according to the (integer) value in the left inlet. A value of zero or less to the left inlet will choose no output; a value greater than the number of outlets will select the last outlet. Like gate~, un-selected outlets will send zero.","domain":"all"}
+{"category":"Route","aliases":["mix"],"description":"Mixes (interpolates) between inputs a and b according to the value of the third input t, using linear interpolation. The factor (t) should vary between 0 (for a) and 1 (for b). If one argument is given, it specifies the mix (interpolation) factor.","domain":"all"}
+{"category":"Route","aliases":["r","receive"],"description":"Receive values from a named send. The send/receive pairs are only visible to each other within the same gen patcher. They will not send across gen patchers or sub-patchers.","domain":"all"}
+{"category":"Route","aliases":["s","send"],"description":"Send values to a named receive. The send/receive pairs are only visible to each other within the same gen patcher. They will not send across gen patchers or sub-patchers.","domain":"all"}
+{"category":"Route","aliases":["selector"],"description":"Similar to the MSP selector~ object. In a Gen patcher it takes an argument for number of choices (one is the default). In GenExpr, the number of choices is determined by the number of arguments. The first input lets you choose which of the remaining inputs is sent to the output. A value of zero or less to the first input will result in a zero signal at the output; a value greater than the number of choices will select the last input.","domain":"all"}
+{"category":"Route","aliases":["smoothstep"],"description":"Smoothstep is a scalar interpolation function commonly used in computer graphics. The function interpolates smoothly between two input values based on a third one that should be between the first two. The returned value is clamped between 0 and 1. The slope (i.e. derivative) of the smoothstep function starts at 0 and ends at 0.","domain":"all"}
+{"category":"Subpatcher","aliases":["gen"],"description":"Gen subpatcher or abstraction","domain":"all"}
+{"category":"Subpatcher","aliases":["setparam"],"description":"Set a param in a subpatcher from a parent patcher","domain":"all"}
+{"category":"Trigonometry","aliases":["acos"],"description":"The arc cosine of the input (returns radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["acosh"],"description":"The inverse hyperbolic cosine of the input","domain":"all"}
+{"category":"Trigonometry","aliases":["asin"],"description":"The arc sine of the input (returns radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["asinh"],"description":"The inverse hyperbolic sine of the input","domain":"all"}
+{"category":"Trigonometry","aliases":["atan"],"description":"The arc tangent of the input (returns radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["atan2"],"description":"Returns the angle to the coordinate (x,y) in radians.","domain":"all"}
+{"category":"Trigonometry","aliases":["atanh"],"description":"The inverse hyperbolic tangent of the input","domain":"all"}
+{"category":"Trigonometry","aliases":["cos"],"description":"The cosine of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["cosh"],"description":"The hyperbolic cosine of the input","domain":"all"}
+{"category":"Trigonometry","aliases":["degrees"],"description":"convert radians to degrees","domain":"all"}
+{"category":"Trigonometry","aliases":["fastcos"],"description":"The approximated cosine of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["fastsin"],"description":"The approximated sine of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["fasttan"],"description":"The approximated tangent of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["hypot"],"description":"Returns the length of the vector to (in1, in2).","domain":"all"}
+{"category":"Trigonometry","aliases":["radians"],"description":"convert degrees to radians","domain":"all"}
+{"category":"Trigonometry","aliases":["sin"],"description":"The sine of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["sinh"],"description":"The hyperbolic sine of the input","domain":"all"}
+{"category":"Trigonometry","aliases":["tan"],"description":"The tangent of the input (in radians)","domain":"all"}
+{"category":"Trigonometry","aliases":["tanh"],"description":"The hyperbolic tangent of the input","domain":"all"}
+{"category":"Waveform","aliases":["noise"],"description":"A random number generator","domain":"all"}
+{"category":"Buffer","aliases":["buffer","gen~"],"description":"//docs.cycling74.com/max8/refpages/gen~) object's parent patch. The first argument specifies a name by which to refer to this data in other objects in the gen patcher (such as peek and poke); the second optional argument specifies the name of the external buffer~ object to reference (if ommitted, the first argument name is used). The first outlet sends the length of the buffer in samples; the second outlet sends the number of channels.","domain":"audio"}
+{"category":"Buffer","aliases":["channels"],"description":"The number of channels of a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher.","domain":"audio"}
+{"category":"Buffer","aliases":["cycle"],"description":"An interpolating oscillator that reads repeatedly through one cycle of a sine wave. By default it is driven by a frequency input, but if the @index attribute is set to 'phase', it can be driven by a phase input instead.","domain":"audio"}
+{"category":"Buffer","aliases":["data"],"description":"Stores an array of sample data (64-bit floats) usable for sampling, wavetable synthesis and other purposes. The first argument specifies a name by which to refer to this data in other objects in the gen patcher (such as peek and poke); the second optional argument specifies the length of the array (default 512 samples); and the third optional argument specifies the number of channels (default 1). The first outlet sends the length of the buffer in samples; the second outlet sends the number of channels.","domain":"audio"}
+{"category":"Buffer","aliases":["dim"],"description":"The length (in samples) of a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher.","domain":"audio"}
+{"category":"Buffer","aliases":["lookup"],"description":"Index a data/buffer object using a signal, for waveshaping. The first argument should be a name of a data or buffer object in the gen patcher. The second argument specifies the number of output channels. Input signals in the range -1 to 1 are mapped to the full size of the data/buffer, with linear interpolation. The last inlet specifies a channel offset (default 0).","domain":"audio"}
+{"category":"Buffer","aliases":["nearest"],"description":"Multi-channel lookup a data/buffer object (no interpolation). The first argument should be a name of a data or buffer object in the gen patcher. The second argument specifies the number of output channels. The input phase ranges from 0 to 1, and wraps outside this range. The last inlet specifies a channel offset (default 0).","domain":"audio"}
+{"category":"Buffer","aliases":["peek"],"description":"Read values from a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher. The second argument specifies the number of output channels. The first inlet specifes a sample index to read (no interpolation); indices out of range return zero. The last inlet specifies a channel offset (default 0).","domain":"audio"}
+{"category":"Buffer","aliases":["poke"],"description":"Write values into a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher. The second argument (or third inlet if omitted) specifies which channel to use. The first inlet specifies a value to write, while the second inlet specifies the sample index within the data/buffer. If the index is out of range, no value is written.","domain":"audio"}
+{"category":"Buffer","aliases":["sample"],"description":"Linear interpolated multi-channel lookup of a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher. The second argument specifies the number of output channels. The last inlet specifies a channel offset (default 0).","domain":"audio"}
+{"category":"Buffer","aliases":["splat"],"description":"Mix values into a data/buffer object, with linear interpolated overdubbing. The first argument should be a name of a data or buffer object in the gen patcher. The second argument (or third inlet if omitted) specifies which channel to use. The first inlet specifies a value to write, while the fractional component of the second inlet specifies a phase (0..1) within the data/buffer (indices out of range will wrap). Splat writes with linear interpolation between samples, and mixes new values with the existing data (overdubbing).","domain":"audio"}
+{"category":"Buffer","aliases":["wave"],"description":"Wavetable synthesis using a data/buffer object. The first argument should be a name of a data or buffer object in the gen patcher. The second argument specifies the number of output channels. The first inlet specifies phase (0..1), while the second and third inlets specify start/end sample positions within the data/buffer. The last inlet specifies a channel offset (default 0).","domain":"audio"}
+{"category":"Convert","aliases":["atodb"],"description":"Convert linear amplitude to deciBel value","domain":"audio"}
+{"category":"Convert","aliases":["dbtoa"],"description":"Convert deciBel value to linear amplitude","domain":"audio"}
+{"category":"Convert","aliases":["ftom"],"description":"Frequency given in Hertz is converted to MIDI note number (0-127). Fractional note numbers are supported. The second input sets the tuning base (default 440).","domain":"audio"}
+{"category":"Convert","aliases":["mstosamps"],"description":"Convert period in milliseconds to samples","domain":"audio"}
+{"category":"Convert","aliases":["mtof"],"description":"MIDI note number (0-127) is converted to frequency in Hertz. Fractional note numbers are supported. The second input sets the tuning base (default 440).","domain":"audio"}
+{"category":"Convert","aliases":["sampstoms"],"description":"Convert period in samples to milliseconds","domain":"audio"}
+{"category":"Constants","aliases":["fftfullspect","FFTFULLSPECT"],"description":"The pfft~ full spectrum flag (0/1)","domain":"audio"}
+{"category":"Constants","aliases":["ffthop","FFTHOP"],"description":"The pfft~ FFT hop size","domain":"audio"}
+{"category":"Constants","aliases":["fftoffset","FFTOFFSET"],"description":"The pfft~ FFT offset","domain":"audio"}
+{"category":"Constants","aliases":["fftsize","FFTSIZE"],"description":"The pfft~ FFT frame size","domain":"audio"}
+{"category":"Constants","aliases":["samplerate","SAMPLERATE"],"description":"The DSP samplerate","domain":"audio"}
+{"category":"Constants","aliases":["vectorsize","VECTORSIZE"],"description":"The DSP vectorsize","domain":"audio"}
+{"category":"Dsp","aliases":["fixdenorm"],"description":"As of Max 6.0 the x87 control flags are set to flush to zero and disable exception handling in audio processing, so denormal fixing should only be required for exported code. A denormal number is a floating point value very close to zero (filling the underflow gap). Calculations with denormal values can be up to 100 times more expensive, so it is often beneficial to replace them with zeroes. Denormals often occur in feedback loops with multipliers, such as filters, delays and exponential decays. Denormal detection is based on a bitmask. Note that feedback operators in gen~ (delay, history) apply fixdenorm to their input signals by default.","domain":"audio"}
+{"category":"Dsp","aliases":["fixnan"],"description":"This operator replaces NaNs with zero. A NaN (Not a Number) is a floating point data value which represents an undefined or unrepresentable value, such as the result of dividing by zero. Computations on NaNs produce more NaNs, and so it is often preferable to replace the NaN with a zero value. Note that division and modulo operators in gen~ protect against generating NaNs by default.","domain":"audio"}
+{"category":"Dsp","aliases":["isdenorm"],"description":"As of Max 6.0 the x87 control flags are set to flush to zero and disable exception handling in audio processing, so denormal fixing should only be required for exported code. A denormal number is a floating point value very close to zero (filling the underflow gap). Calculations with denormal values can be up to 100 times more expensive, so it is often beneficial to replace them with zeroes. Denormals often occur in feedback loops with multipliers, such as filters, delays and exponential decays. Denormal detection is based on a bitmask. Note that feedback operators in gen~ (delay, history) apply fixdenorm to their input signals by default.","domain":"audio"}
+{"category":"Dsp","aliases":["isnan"],"description":"This operator detects the presence of NaN values, returning 1 if the input is NaN, and zero otherwise. A NaN (Not a Number) is a floating point data value which represents an undefined or unrepresentable value, such as the result of dividing by zero. Computations on NaNs produce more NaNs, and so it is often preferable to replace the NaN with a zero value. Note that division and modulo operators in gen~ protect against generating NaNs by default.","domain":"audio"}
+{"category":"Dsp","aliases":["t60"],"description":"Given an input T, returns a number X such that, after T multiplications of a signal by X, that signal would be attenuated by 60 decibels. Roughly, -60db = 0db \\* pow(X, T). This could be used as a per-sample multiplier (X) to ensure a decay time (of T samples), for example. The name t60 is borrowed from the RT60 time used to measure reverberation time, which specifies the time taken for a signal to decay by 60db, as an approximation of fading to inaudibility.","domain":"audio"}
+{"category":"Dsp","aliases":["t60time"],"description":"Estimates the decay time (in samples) of a given decay factor. That is, given a multiplier X, returns a number T such that, after T multiplications of a signal by X, that signal would be attenuated by 60 decibels. It is the dual of the t60 object.","domain":"audio"}
+{"category":"Feedback","aliases":["delay"],"description":"Delays a signal by a certain amount of time (specified in samples). The first argument specifies the maximum delay time (in samples, default samplerate). The second argument specifies the number of tap inlet/outlet pairs (default 1). The first inlet is the signal to be delayed. Additional inlets specify the delay time per tap (in samples). With @feedback 1, like history, delay allows feedback loops in the patcher, but minium delay is 1 sample. With @feedback 0, minimum delay time is zero samples (or more if @interp is cubic, spline, or spline6)","domain":"audio"}
+{"category":"Feedback","aliases":["history"],"description":"The history operator allows feedback in the gen patcher through the insertion of a single-sample delay. The first argument is an optional name for the history operator, which allows it to also be set externally (in the same way as the param operator). The second argument specifies an initial value of stored history (defaults to zero).","domain":"audio"}
+{"category":"FFT","aliases":["fftinfo"],"description":"fftinfo gets constant data about the FFT frames in a patcher loaded by pfft~. If it is used in a patcher that is not loaded by pfft~, it returns default constants instead.","domain":"audio"}
+{"category":"Filter","aliases":["change"],"description":"1 if the input is increasing, -1 if decreasing, and 0 if unchanging.","domain":"audio"}
+{"category":"Filter","aliases":["dcblock"],"description":"History x1, y1; y = in1 - x1 + y1\\*0.9997; x1 = in1; y1 = y; out1 = y;","domain":"audio"}
+{"category":"Filter","aliases":["delta"],"description":"Returns the difference between the current and previous input.","domain":"audio"}
+{"category":"Filter","aliases":["interp"],"description":"Smoothly mix between inputs, according to an interpolation factor in the range of 0 to 1 (first inlet). The @mode attribute can choose between linear or cosine interpolation to mix between two additional inlets, cubic or spline to mix between four inlets, and spline6 to mix between six inlets. The default mode is linear.","domain":"audio"}
+{"category":"Filter","aliases":["latch"],"description":"Conditionally passes or holds input. The first inlet is the 'input' and the second inlet is the 'control'. When the control is non-zero, the input value is passed through. When the control is zero, the previous input value is output. It can be used to periodically sample & hold a source signal with a simpler trigger logic than the sah operator.","domain":"audio"}
+{"category":"Filter","aliases":["phasewrap"],"description":"Wrap input to the range -pi to +pi","domain":"audio"}
+{"category":"Filter","aliases":["sah"],"description":"The first inlet is the 'input' and the second inlet is the 'control'. When the control makes a transition from being at or below the trigger value to being above the trigger threshold, the input is sampled. The sampled value is output until another control transition occurs, at which point the input is sampled again. The default threshold value is 0, but can be specified as the last inlet/argument. The @init attribute sets the initial previous value to compare to (default 0).","domain":"audio"}
+{"category":"Filter","aliases":["slide"],"description":"Use the slide operator for envelope following and lowpass filtering. Related to the MSP slide~ object.","domain":"audio"}
+{"category":"Global","aliases":["elapsed"],"description":"The number of samples elapsed since the patcher DSP began, or since the last reset.","domain":"audio"}
+{"category":"Global","aliases":["mc_channel"],"description":"If used within a patcher inside mc.gen~, the mc_channel operator will return the current channel index. Otherwise, it always returns 1.","domain":"audio"}
+{"category":"Global","aliases":["mc_channelcount"],"description":"If used within a patcher inside mc.gen~, the mc_channelcount operator will return the channel count of the mc.gen~. Otherwise, it always returns 1.","domain":"audio"}
+{"category":"Global","aliases":["voice"],"description":"If used within a poly~ patcher, the voice operator will return the current voice index (similar to thispoly~). Otherwise, it always returns 1.","domain":"audio"}
+{"category":"Global","aliases":["voicecount"],"description":"If used within a poly~ patcher, the voicecount operator will return the current voice count. Otherwise, it always returns 1.","domain":"audio"}
+{"category":"Integrator","aliases":["\\*=","mulequals"],"description":"The object multiplies by, and then outputs, an internal value. This occurs at sample-rate, so the stored value can grow very large or very small, very fast. The value to be multiplied by is specified by either the first inlet or argument. The internal sum can be reset to the minimum by sending a nonzero value to the right-most inlet. The minimum value is 0 by default, but can be changed with the @min attribute. An optional maximum value can be specified with the @max attribute; values will wrap at the maximum.","domain":"audio"}
+{"category":"Integrator","aliases":["+=","accum","plusequals"],"description":"The object adds to, and then outputs, an internal sum. This occurs at sample-rate, so the sum can grow very large, very fast. The value to be added is specified by either the first inlet or argument. The internal sum can be reset to the minimum by sending a nonzero value to the right-most inlet. The minimum value is 0 by default, but can be changed with the @min attribute. An optional maximum value can be specified with the @max attribute; values will wrap at the maximum.","domain":"audio"}
+{"category":"Integrator","aliases":["counter"],"description":"Accumulates and outputs a stored count, similarly to Max's counter object, but triggered at sample-rate. The amount to accumulate per sample is set by the first input (incr). The count can be reset by a non-zero value in the second input (reset). The third inlet (max) sets a maximum value; the counter will wrap if it reaches this value. However if the maximum value is set to 0 (the default), the counter will assume no limit and count indefinitely. The first outlet outputs the current count, the second outlet outputs 1 when the count wraps at the maximum and zero otherwise, and the third outlet outputs the number of wraps (the carry count).","domain":"audio"}
+{"category":"Numeric","aliases":["round"],"description":"Returns the integral value that is nearest to the input, with halfway cases rounded away from zero.","domain":"audio"}
+{"category":"Waveform","aliases":["phasor"],"description":"A non-bandlimited sawtooth-waveform signal generator which can be used as LFO audio signal or a sample-accurate timing/control signal.","domain":"audio"}
+{"category":"Waveform","aliases":["rate"],"description":"The rate operator time-scales an input phase (such as from a phasor) by a multiplier. Multipliers less than 1 create several ramps per phase cycle.","domain":"audio"}
+{"category":"Waveform","aliases":["train"],"description":"train~ generates a pulse signal whose period is specifiable in terms of samples. The first input sets the pulse period (in samples). The second input sets the pulse width (default 0.5). The third inlet sets the phase of the 'on' portion (default 0.)","domain":"audio"}
+{"category":"Waveform","aliases":["triangle"],"description":"A triangle/ramp wavetable with input to change phase offset of the peak value. The phase ranges from 0 to 1 (and wraps outside these values). With a duty cycle of 0, it produces a descending sawtooth; with a duty cycle of 1 it produces ascending sawtooth; with a duty cycle of 0.5 it produces a triangle waveform. Output values always bounded in 0 to 1.","domain":"audio"}
+{"category":"Color","aliases":["hsl2rgb"],"description":"Convert HSL to RGB, preserving alpha","domain":"matrix"}
+{"category":"Color","aliases":["rgb2hsl"],"description":"Convert RGB to HSL, preserving alpha","domain":"matrix"}
+{"category":"Coordinate","aliases":["cell","0, dim-1"],"description":"Cell coordinates of input matrix [0, dim-1]","domain":"matrix"}
+{"category":"Coordinate","aliases":["dim"],"description":"Dimensions of input matrix","domain":"matrix"}
+{"category":"Coordinate","aliases":["norm","0, 1"],"description":"Normalized coordinates of input matrix [0, 1]","domain":"matrix"}
+{"category":"Coordinate","aliases":["snorm","-1, 1"],"description":"Signed normalized coordinates of input matrix [-1, 1]","domain":"matrix"}
+{"category":"Quaternion","aliases":["qconj"],"description":"Get the conjugate of a quaternion.","domain":"matrix"}
+{"category":"Quaternion","aliases":["qmul"],"description":"Multiply quaternion inputs","domain":"matrix"}
+{"category":"Quaternion","aliases":["qrot"],"description":"Rotate a vector by a quaternion. The equation of the rotation is q*v*q^-1.","domain":"matrix"}
+{"category":"Sampling","aliases":["nearest"],"description":"Nearest neighbor sample a matrix at a given coordinate (normalized). Nearest has a boundmode attribute that can be set to wrap, mirror or clamp.","domain":"matrix"}
+{"category":"Sampling","aliases":["nearestpix"],"description":"Nearest neighbor sample a matrix at a given coordinate (in pixels). Nearest has a boundmode attribute that can be set to wrap, mirror or clamp.","domain":"matrix"}
+{"category":"Sampling","aliases":["sample"],"description":"Sample a matrix at a given coordinate (normalized) with linear interpolation. Sample has a boundmode attribute that can be set to wrap, mirror or clamp.","domain":"matrix"}
+{"category":"Sampling","aliases":["samplepix"],"description":"Sample a matrix at a given coordinate (in pixels) with linear interpolation. Pixel centers are located at PIXEL+0.5. For example, the center of the upper-left pixel is (0.5, 0.5). Samplepix has a boundmode attribute that can be set to wrap, mirror or clamp.","domain":"matrix"}
+{"category":"Surface","aliases":["circle","0, 1"],"description":"Equation of a circle taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Surface","aliases":["cone","0, 1"],"description":"Equation of a cone taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Surface","aliases":["cylinder","0, 1"],"description":"Equation of a cylinder taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Surface","aliases":["plane","0, 1"],"description":"Equation of a plane taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Surface","aliases":["sphere","0, 1"],"description":"Equation of a sphere taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Surface","aliases":["torus","0, 1"],"description":"Equation of a torus taking input coordinates ranging from [0, 1]","domain":"matrix"}
+{"category":"Vector","aliases":["concat"],"description":"Concatenate vector values into a larger vector","domain":"matrix"}
+{"category":"Vector","aliases":["cross"],"description":"Take the cross product of two vectors","domain":"matrix"}
+{"category":"Vector","aliases":["dot"],"description":"Take the dot product of two vectors","domain":"matrix"}
+{"category":"Vector","aliases":["faceforward"],"description":"Return a vector pointing in the same direction as another","domain":"matrix"}
+{"category":"Vector","aliases":["length"],"description":"Returns the length of a vector","domain":"matrix"}
+{"category":"Vector","aliases":["normalize"],"description":"Normalize a vector to unit length","domain":"matrix"}
+{"category":"Vector","aliases":["reflect"],"description":"Reflect a vector off a surface defined by a normal","domain":"matrix"}
+{"category":"Vector","aliases":["refract"],"description":"Refract a vector through a surface defined by a normal and a refraction index","domain":"matrix"}
+{"category":"Vector","aliases":["rotor"],"description":"Return a quaternion that can rotate the first input into the second.","domain":"matrix"}
+{"category":"Vector","aliases":["swiz"],"description":"Unpack and remap vector components","domain":"matrix"}
+{"category":"Vector","aliases":["vec"],"description":"Pack scalar values into a vector","domain":"matrix"}
