@@ -1,0 +1,31 @@
+{
+  "name": "examples/basic-react-superjson",
+  "version": "0.0.16",
+  "private": true,
+  "main": "dist-electron/index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^4.29.14",
+    "@trpc/client": "10.33.1",
+    "@trpc/react-query": "10.33.1",
+    "@trpc/server": "10.33.1",
+    "electron": "29.3.2",
+    "electron-trpc": "0.6.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "superjson": "^1.12.3",
+    "zod": "^3.21.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.8",
+    "@types/react": "^18.3.1",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.2.1",
+    "vite": "^5.2.11",
+    "vite-plugin-electron": "^0.28.7"
+  }
+}

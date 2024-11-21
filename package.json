@@ -13,5 +13,8 @@
     "@clack/prompts": "^0.7.0",
     "@types/node": "^20.11.28",
     "change-case": "^5.4.3"
+  },
+  "devDependencies": {
+    "assemblyscript": "^0.27.29"
   }
 }
